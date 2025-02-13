@@ -1,9 +1,8 @@
 const Product = require("./Product");
 
-class ProductList {
+class ProductMenu {
     constructor() {
         this.products = [];
-        this.nextId = 1;
     }
 
     addProduct(nome, valor, descricao, categoria) {
@@ -36,4 +35,4 @@ class ProductList {
     }
 }
 
-module.exports = new ListProduct();
+module.exports = ProductMenu;
